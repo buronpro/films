@@ -1,0 +1,81 @@
+body {
+    background-color: blue;
+}
+.container {
+    width: 1150px;
+    padding: 25px;
+    
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 50px;
+    
+}
+
+
+li {
+    
+    list-style-type: none;
+    width: 350px;
+    height: 450px;
+    background-color: brown;
+    -webkit-box-shadow: 1px 14px 62px -18px rgba(189, 255, 9, 0.21);
+    -moz-box-shadow: 1px 14px 62px -18px rgba(165, 221, 12, 0.21);
+    box-shadow: 1px 14px 62px -18px rgba(14, 151, 255, 0.21);
+}
+
+img {
+    margin-left: 60px;
+    margin-top: 20px;
+   
+}
+
+h3 {
+    text-align: center;
+    padding: 5px;
+    color: dimgrey;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.film__time {
+    margin-top: -30px;
+    color: #fff;
+    padding-left: 25px;
+    font-size: 18px;
+
+}
+
+.form {
+    margin-left: 50px;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    margin-left: 20;
+    color: red;
+}
+
+
+.btn {
+    width: 100px;
+    height: 33px;
+    margin-left: 25px;
+    background-color: royalblue;
+    color: seashell;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: seashell;
+    color: #000;
+
+}
